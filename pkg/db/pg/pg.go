@@ -11,8 +11,8 @@ import (
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/antoneka/platform-common/db"
-	"github.com/antoneka/platform-common/db/prettier"
+	"github.com/antoneka/platform-common/pkg/db"
+	"github.com/antoneka/platform-common/pkg/db/prettier"
 )
 
 // key is a custom type for context key.
