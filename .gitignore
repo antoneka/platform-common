@@ -1,0 +1,5 @@
+.idea
+bin
+.env
+.DS_STORE
+/coverage.out
