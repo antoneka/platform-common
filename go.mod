@@ -3,7 +3,6 @@ module github.com/antoneka/platform-common
 go 1.22.0
 
 require (
-	github.com/antoneka/auth v0.0.0-20240620103730-2a3d9a16904a
 	github.com/georgysavva/scany v1.2.2
 	github.com/gojuno/minimock/v3 v3.3.12
 	github.com/jackc/pgconn v1.14.3
