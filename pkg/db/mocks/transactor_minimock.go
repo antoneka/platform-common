@@ -2,7 +2,7 @@
 
 package mocks
 
-//go:generate minimock -i github.com/antoneka/auth/pkg/client/db.Transactor -o transactor_minimock.go -n TransactorMock -p mocks
+//go:generate minimock -i github.com/antoneka/platform-common/pkg/db.Transactor -o transactor_minimock.go -n TransactorMock -p mocks
 
 import (
 	"context"

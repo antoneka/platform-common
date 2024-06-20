@@ -6,8 +6,8 @@ import (
 
 	"github.com/jackc/pgx/v4"
 
-	"github.com/antoneka/auth/pkg/client/db"
-	"github.com/antoneka/auth/pkg/client/db/pg"
+	"github.com/antoneka/platform-common/pkg/db"
+	"github.com/antoneka/platform-common/pkg/db/pg"
 )
 
 // manager implements the TxManager interface.

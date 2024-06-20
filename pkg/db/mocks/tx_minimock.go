@@ -2,7 +2,7 @@
 
 package mocks
 
-//go:generate minimock -i github.com/antoneka/auth/pkg/client/db.Tx -o tx_minimock.go -n TxMock -p mocks
+//go:generate minimock -i github.com/antoneka/platform-common/pkg/db.Tx -o tx_minimock.go -n TxMock -p mocks
 
 import (
 	"context"
